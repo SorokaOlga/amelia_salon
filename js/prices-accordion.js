@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("h2:not(.accordion-title)").click(function(t){var e=jQuery(t.target).next(),n=e.height();e.toggleClass("open"),e.hasClass("open")?(e.css({display:"block",height:0}),e.animate({height:n},250,function(){e.css({height:"auto"})})):e.animate({height:0},250,function(){e.removeAttr("style")})})});
